@@ -18,7 +18,15 @@
 //}
 
 // 4.-----Divide two number------
-let a = 25;
-let b = 5;
-let div = a/b;
-console.log(div);
+
+//let a = 24;
+ //let b = 3;
+ //let div = a/b;
+ //console.log(div);
+
+ // 5.--------Find square------
+
+ const prompt = require("prompt-sync")();
+ let num = prompt("Enter the number");
+ let sqr = num*num;
+ console.log("Square of the number  = ",sqr);
