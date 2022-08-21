@@ -33,7 +33,17 @@
 
  // 6. ---------Calculate the area of triangle-------
 
- const prompt = require("prompt-sync")();
- let radius = prompt("Enter the  radius : ");
- let area = 3.14*radius*radius;
- console.log("Area of a triangle = ",area);
+ // const prompt = require("prompt-sync")();
+  //let radius = prompt("Enter the  radius : ");
+  //let area = 3.14*radius*radius;
+  //console.log("Area of a triangle = ",area);
+
+  // 7.--------Swap two number ------------
+
+  let a = 3;
+  let b =4;
+  let temp;
+  temp = a;
+  a = b;
+  b = temp;
+  console.log(a,b);
