@@ -26,7 +26,14 @@
 
  // 5.--------Find square------
 
+ //const prompt = require("prompt-sync")();
+ //let num = prompt("Enter the number");
+ //let sqr = num*num;
+ //console.log("Square of the number  = ",sqr);
+
+ // 6. ---------Calculate the area of triangle-------
+
  const prompt = require("prompt-sync")();
- let num = prompt("Enter the number");
- let sqr = num*num;
- console.log("Square of the number  = ",sqr);
+ let radius = prompt("Enter the  radius : ");
+ let area = 3.14*radius*radius;
+ console.log("Area of a triangle = ",area);
