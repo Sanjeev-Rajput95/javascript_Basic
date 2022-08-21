@@ -40,10 +40,19 @@
 
   // 7.--------Swap two number ------------
 
-  let a = 3;
-  let b =4;
-  let temp;
-  temp = a;
-  a = b;
-  b = temp;
+  //let a = 3;
+  //let b =4;
+  //let temp;
+  //temp = a;
+  //a = b;
+  //b = temp;
+  //console.log(a,b);
+
+  // 8.-------Swap two number without using third variable...
+
+  let a = 5;
+  let b = 2;
+  b = a + b;
+  a = b - a;
+  b = b - a;
   console.log(a,b);
