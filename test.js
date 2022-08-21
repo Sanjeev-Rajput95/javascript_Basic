@@ -59,19 +59,26 @@
 
   // 9.------Find the Largest Among Three Numbers..
 
-  let a ;
-  let b ;
-  let c ;
-    if(a>b) {
-        if(a>c) {
-            console.log("a is the largest");
-        } else {
-            console.log("c is the largest");
-        }
-    } else {
-        if(b>c) {
-            console.log("b is the largest");
-        } else {
-            console.log("c is the largest");
-        }
-    }
+ // let a ;
+  //let b ;
+  //let c ;
+  //  if(a>b) {
+  //     if(a>c) {
+  //     console.log("a is the largest");
+ //   } else {
+ //           console.log("c is the largest");
+//     }
+//    } else {
+//      if(b>c) {
+//          console.log("b is the largest");
+//      } else {
+//          console.log("c is the largest");
+//      }
+//  }
+
+// 10. ------Convert Celsius to Fahrenheit..
+
+const prompt = require("prompt-sync")();
+let Celsius = prompt("Enter the value of Celsius : ");
+let Fahrenheit = Celsius*1.8 + 32;
+console.log(Fahrenheit);
