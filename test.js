@@ -8,7 +8,7 @@ let add = a + b;
 console.log(add);
 
 // 3.-----check number is even or not-------
-const prompt = require("prompt-sync")();
+ const prompt = require("prompt-sync")();
 let num = prompt("Enter the number") ;
 if(num%2==0) {
     console.log("isEven");
@@ -83,7 +83,7 @@ let Celsius = prompt("Enter the value of Celsius : ");
 let Fahrenheit = Celsius*1.8 + 32;
 console.log(Fahrenheit);
 
-// 11. -------Prime Number......
+// 11. ------Check Prime Number or not.........
 
 // const prompt = require("prompt-sync")();
 let n = prompt("Enter the number :");
@@ -93,6 +93,7 @@ let  i, flag = true;
 // field using DOM
 // n = document.myform.n.value;
 // n = parseInt(n)
+
 for(i = 2; i <= n - 1; i++)
     if (n % i == 0) {
         flag = false;
@@ -106,11 +107,17 @@ if(n == 1 && n < 1) {
 } else {
     if (flag == true) {
         console.log(n + " is prime");
-    }
-        
-  //  else
-    //    console.log(n + " is not prime");    
+    } else
+        console.log(n + " is not prime");    
 }
 
-// 12.-----------Find Palindrom number--------
+
+// 12. --------find factorial---------...
+
+let number_1 = prompt("Enter the number :");
+let fact = 1;
+for(let i = number_1;i >=1;i--) {
+    fact = fact*i;
+}
+console.log("The factorial of "+ number_1 +" is : "  + fact);
 
