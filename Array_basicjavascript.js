@@ -8,16 +8,16 @@ let maxNumber = arr[0];
  }
  console.log("The Maximum value is : " + maxNumber);
 
-//  // 2.-------Find minimum number------------
+ // 2.-------Find minimum number------------
 
-//  let arr_ = [12,2,32,1,23,43,45,11,211,-1,-22];
-//  let minNumber = arr_[0];
-//   for(let i=0;i<arr_.length;i++) {
-//     if(minNumber>=arr_[i]) {
-//         minNumber = arr_[i];
-//     }
-//   }
-//   console.log("Minimum value is : " + minNumber);
+ let arr_ = [12,2,32,1,23,43,45,11,211,-1,-22];
+ let minNumber = arr_[0];
+  for(let i=0;i<arr_.length;i++) {
+    if(minNumber>=arr_[i]) {
+        minNumber = arr_[i];
+    }
+  }
+  console.log("Minimum value is : " + minNumber);
 
 // 3.--------Arrange Array Ascending Order---------
 
