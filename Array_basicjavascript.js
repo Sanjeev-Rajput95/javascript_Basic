@@ -19,16 +19,16 @@ let maxNumber = arr[0];
   }
   console.log("Minimum value is : " + minNumber);
 
-// 3.--------Arrange Array Ascending Order---------
+// 3.--------Arrange Ascending Order---------
 
-// let arr_1 = [2,1 ,8,5,9,0,4];
-//  for(let i=0;arr.length;i++) {
-//     for(let j=i+1;arr.length;j++) {
-//         if(arr[i]>arr[j]) {
-//             let temp = arr[i];
-//             arr[i] = arr[j];
-//             arr[j] = temp;
-//         }
-//     }
-//  }
-//  console.log(arr)
+let arr_1 = [2,1,0,5,8,3,-3];
+ for(let i=0;i<arr_1.length;i++) {
+    for(let j=i+1;j<arr_1.length;j++) {
+        if(arr_1[i]>arr_1[j]) {
+           let temp = arr_1[i];
+            arr_1[i] = arr_1[j];
+            arr_1[j] = temp;
+        }
+    }
+ }
+ console.log(arr_1);
