@@ -32,3 +32,17 @@ let arr_1 = [2,1,0,5,8,3,-3];
     }
  }
  console.log(arr_1);
+
+ // 4.-----------Arrange Descending Order------------
+
+ let arr_2 = [2,4,1,6,5,0,9];
+ for(let i=0;i<arr_2.length;i++) {
+    for(let j=i+1;j<arr_2.length;j++) {
+        if(arr_2[i] < arr_2[j]) {
+            let temp = arr_2[i];
+            arr_2[i] = arr_2[j];
+            arr_2[j] = temp;
+        }
+    }
+ }
+ console.log(arr_2);
