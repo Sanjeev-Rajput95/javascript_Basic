@@ -52,3 +52,22 @@ let arr_1 = [2,1,0,5,8,3,-3];
  let array = [2,3,4,1,23,4];
  array.length = 0;
  console.log(array);
+
+ // 6.------How will remove duplicates from array------
+
+ let arr1 = [1,2,3,4,6,5,4,3,6,8];
+ let uniqueValue = [...new Set(arr1)];
+ console.log(uniqueValue);
+
+// 7.----------Print All Duplicate Value------
+
+let arr2 = [2,3,5,4,3,7,4,'a','b','d','e','b'];
+ for(let i =0;i<arr2.length;i++) {
+    for(let j=i+1;j<arr2.length;j++) {
+        if(arr2[i] == arr2[j]) {
+            console.log("Duplicate value is : " + arr2[i]);
+        }
+    }
+ 
+ }
+ 
